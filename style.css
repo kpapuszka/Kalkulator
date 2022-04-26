@@ -1,0 +1,36 @@
+#container {
+    width: 200px;
+    height: 300px;
+    margin: 20px auto 0;
+    border: 1px solid black;
+    display: grid;
+    grid-template: 80px 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+    background-color: black;
+    gap: 1px;
+
+}
+#container > div {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container>div:hover {
+    background-color: orange;
+}
+
+div#screen {
+    grid-column: 1/5;
+    justify-content: right;
+    padding-right: 8px;
+    font-size: 36px;
+
+}
+.double {
+    grid-column-end: span 2;
+}
+
+#container > div {
+    border: 1px solid black;
+}
