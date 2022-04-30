@@ -14,7 +14,7 @@ h1 {
 
 }
 #container > div {
-    background-color: white;
+    background-color: gainsboro;
     display: flex;
     align-items: center;
     justify-content: center;
